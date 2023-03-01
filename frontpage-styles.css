@@ -1,22 +1,24 @@
   
   .header {
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background: #FE7984;
+    color: #66446D;
     height: 140px;
-    width: 1255px;
+    width: 980px;
     margin: 15px;
+    left: 150px;
     top: 0px;
     position:absolute;
   }
 
   .sidebar {
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background: #FE7984;
+    color: #66446D;
     height: 450px;
     width: 270px;
     top: 165px;
+    left: 150px;
     margin: 15px;
     position:absolute;
     
@@ -24,27 +26,40 @@
 
   .content {
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background: #FE7984;
+    color: #66446D;
     height: 450px;
-    width: 965px;
+    width: 690px;
     margin: 15px;
-    left: 300px;
+    left: 440px;
     top: 165px;
     position:absolute;
   }
 
   .footer {
     text-align: center;
-    background: #1abc9c;
-    color: white;
+    background: #FE7984;
+    color: #66446D;
     height: 70px;
-    width: 1255px;
+    width: 980px;
+    left: 150px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
     top: 655px;
+    left: 150px;
     position:absolute;
+  }
+
+  body{
+    background-image: url('Looping\ Gif\ of\ space\ -\ Imgur.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
   }
 
 
